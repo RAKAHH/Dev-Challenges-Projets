@@ -77,3 +77,13 @@ body {
   font-size: 1.2rem;
   color: var(--textmain);
 }
+
+@media screen and (max-width: 1024px) {
+  .card-content p {
+    color: #6c727f;
+  }
+
+  .card-footer p {
+    color: #6c727f;
+  }
+}

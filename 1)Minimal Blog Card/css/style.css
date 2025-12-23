@@ -6,7 +6,6 @@
   --white: #ffffff;
   --h1color: #20293a;
   --textmain: #394150;
-  --footertext: #6c727f;
 }
 
 * {
@@ -51,7 +50,7 @@ body {
   color: var(--violet);
   font-weight: 600;
   border-radius: 5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .card-content h1 {
@@ -66,6 +65,7 @@ body {
   font-weight: 300;
   color: var(--textmain);
   line-height: 150%;
+  text-align: start;
 }
 
 .card-footer {
@@ -74,6 +74,6 @@ body {
 }
 
 .card-footer p {
-  font-size: 1.4rem;
-  color: var(--footertext);
+  font-size: 1.2rem;
+  color: var(--textmain);
 }

@@ -1,0 +1,81 @@
+:root {
+  font-size: 10px;
+  --violet: #7c19ee;
+  --violetbg: #f2eafd;
+  --bgmain: #fafaf9;
+  --white: #ffffff;
+  --h1color:#20293A;
+  --textmain:#394150;
+  --footertext:#6C727F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bgmain);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sora", sans-serif;
+}
+
+.container {
+    width: 30.7rem;
+}
+
+.card {
+  background: var(--white);
+  border-radius: 1.2rem;
+}
+
+.card-content {
+  width: 36.8rem;
+  padding: 1.6rem;
+}
+
+.card-content-img {
+  width: 100%;
+  aspect-ratio: 336 / 152;
+  background: url(../img/Cactus.jpg) center center/cover;
+  border-radius: 0.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.card-content span {
+  display: inline-block;
+  padding: 0.4rem 1.6rem;
+  margin-bottom: 1.6rem;
+  background: var(--violetbg);
+  color: var(--violet);
+  font-weight: 600;
+  border-radius: 5rem;
+}
+
+.card-content h1 {
+    color:var(--h1color);
+    font-size: 1.8rem ;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+
+.card-content p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color:var(--textmain);
+    line-height: 150%;
+}
+
+.card-footer {
+  border-top: 1px solid gray;
+  padding: 2rem 1.6rem;
+}
+
+.card-footer p {
+  font-size: 1.4rem;
+  color: var(--footertext);
+}
